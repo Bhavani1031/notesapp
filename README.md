@@ -1,16 +1,35 @@
-# flutter_notesapp
+Personalized Notes App with Authentication........
 
-A new Flutter project.
+** Objective
+Develop a personalized notes application that includes user authentication using Flutter. The app allows users to create, read, update, and delete notes while ensuring that each user's data is secure and private.
 
-## Getting Started
+** Features
 
-This project is a starting point for a Flutter application.
+1)User Authentication
+*Sign-up, login, and logout functionalities.
+*Secure password handling and validation.
 
-A few resources to get you started if this is your first Flutter project:
+2)Notes Management
+*Create, read, update, and delete notes.
+*Each note has a title, body, and timestamp.
+*Notes are stored in AWS DynamoDB, tied to the authenticated user.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3)Personalization
+*Categorize notes (e.g., work, personal, study).
+*Search functionality to find notes by title or content.
+*Different themes (e.g., light, dark mode).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4)UI/UX
+*Clean and intuitive user interface following Material Design principles.
+*Responsive design for different screen sizes.
+
+** Usage
+Sign Up: Create a new account using an email and password.
+Login: Log in with your email and password.
+Create Note: Add a new note with a title and body.
+Read Note: View your saved notes.
+Update Note: Edit an existing note.
+Delete Note: Remove a note you no longer need.
+Categorize Notes: Organize notes by categories like work, personal, or study.
+Search Notes: Find notes by title or content.
+Theme: Switch between light and dark mode.
